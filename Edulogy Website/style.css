@@ -1,0 +1,459 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.FirstNavbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+.first-left , .first-right{
+    display: flex;color: white;
+    margin: 10px;align-items: center;
+}
+.first-left{padding-left: 50px;}
+.first-right{padding-right: 100px;}
+.first-left i{
+    padding-left: 10px; /*padding-top: 5px; */
+    color: skyblue;
+}
+.first-right i{
+    border: 1px solid black;
+    padding: 5px;
+}
+.second-navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.second-left img, .classes-1 img{
+    width: 150px;
+    padding-top: 15px;
+}
+.second-right{
+    padding-top: 30px;
+    font-size: large;
+}
+.second-right a{
+     text-decoration: none;color:white;
+     align-items: center;
+     padding-left: 20px;
+}
+.second-right a:hover{
+    color: blue;
+}
+.mainscreen{
+    background-color: gray;
+}
+.banner-text{
+    padding-top: 100px;
+    text-align: center;
+}
+.banner-para{
+    color: rgb(27, 24, 24);
+    font-size: large;
+}
+.banner-explore{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.banner-buttons button{
+    width: 150px;
+    height: 50px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.images-1 img{
+    width: 400px;height: 600px;
+    padding: 50px 100px 50px 200px;
+}
+.article-1{
+    display: flex;
+    padding-top: 50px;
+}
+.about-us{
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.headers1 span{
+    border: 1px solid rgb(98, 178, 209);
+    background-color: rgb(98, 178, 209) ;
+}
+.header-para{
+    padding-top: 15px;
+}
+.list-order{
+    display: flex;
+    justify-content: space-around;
+}
+.list-order i{
+    color:rgb(68, 145, 175);
+    padding-right: 5px;
+}
+.list1, .list2, .list3{
+    width: 200px;
+}
+.learnbutton button, .all-button button{
+    width: 150px; 
+    height: 50px;
+    background-color: aqua;
+    color: white;font-weight:bold ;
+}
+.learnbutton{
+    padding: 50px 0px 0px 50px;
+}
+.img1-banner3 {
+    width: 280px;height: auto;
+    background-color: rgb(238, 231, 231);
+}
+.des-img1{
+    display: inline;
+}
+.shopping-banner3{
+    display: flex;
+    justify-content: space-around;
+}
+.des-img1 h3 a {
+    text-decoration: none;
+    color: black;
+}
+.carts-left{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.carts-left a {
+ padding-left: 5px;
+}
+.carts-left i{
+    color: skyblue;
+}
+.carts-right{
+    padding-right: 10px;
+    color: rgb(36, 206, 36);
+}
+.carts-img1{
+    display: flex;
+    justify-content: space-between;
+}
+.des-img1 p {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.des-img1 h3{
+    padding-left: 15px;
+}
+.main-banner3{
+ text-align: center;
+}
+.para-banner3 {
+ padding: 5px 200px 25px 200px;
+}.para1design{
+    color: skyblue;
+}
+.all-button{
+    text-align:  center;
+    padding: 60px;
+}
+.second-header h1{
+    text-align: center;
+    padding: 0px 200px;
+    color: white;
+}
+.second-header h1{
+    padding: 100px 0px;
+    background-color: black;
+}
+.wrap-1-header, .wrap-2-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.content-1{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background-color: aliceblue;
+}
+.content-2{
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin: 40px;
+    background-color: aliceblue;
+}
+.content-1 h2 {
+    padding-top: 30px;
+}
+.content-1 p, .content-2 p {
+    padding: 30px 0px;
+    font-weight: bold;
+    font-size: large;
+    opacity: 60%;
+}
+.wrap-2-header{
+    padding-top: 100px;
+}
+.third-banner{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.third-content{
+    width: 350px;
+    height: auto;
+}
+.third-content1 {
+    display: flex;
+    color: skyblue;
+}
+.third-content1 i{
+     padding-right: 10px;
+     border-right: 1px solid whitesmoke;
+}
+.Third{
+    padding: 100px 0px;
+    background-color: black;
+}
+.third-main{
+    padding-top: 50px;
+}
+.third-banner{
+    padding: 0px 50px;
+    font-size: larger;
+}
+.topics-fourth, .fifth-topic{
+    text-align: center;
+}
+.topics-fourth p, .fifth-topic p{
+    padding: 0px 350px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    opacity: 60%;
+    font-size: large;
+}
+.ratings img{
+     width: 50px;height: 50px;
+    border-radius: 50px;
+}
+.ratings1{
+    display: flex;
+    align-items: center;
+}
+.ratings  h2{
+       padding-left: 15px;
+}
+.ratings{
+    width: 300px;height: auto;
+    padding: 30px;
+    background-color: aliceblue;
+}
+.main-cont{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-around;
+}
+.fourth-banner{
+    padding: 50px;
+}
+.fifth-contents{
+    width: 400px;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.fifth-content1 img{
+    width: 400px; height: 250px;
+}
+.fifth-content3{
+    display: flex;
+    justify-content: space-around;
+    opacity: 70%;
+}
+.fifth-banner{
+    display: flex;
+    justify-content: space-around;
+}
+.fifth-content2 p, .fifth-content3 p,.fifth-content2 h3{
+    padding: 10px;
+}
+.fifth-contents a{
+    text-decoration: none;
+    color: black;
+}
+.fifth-content2 p{
+    font-size: large;
+    opacity: 70%;
+}
+.fifth-main{
+    padding: 50px 0px;
+}
+.sixth-main{
+    font-size: larger;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: rgb(92, 155, 206);
+}
+.paras{
+    width: 500px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 0px;
+    border-bottom: 1px solid rgb(224, 220, 220);
+}
+.topic-1,.topic-2,.topic-3,.topic-4{
+    flex: 1;
+    padding-left: 20px;
+    color: white;
+}
+.classes-2, .classes-1{
+   display: flex;
+}
+.footer-2{
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+.classes-2 p{
+    padding-left: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+}
+.topic-4 li{
+list-style-type: none;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .FirstNavbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .first-left, .first-right {
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    .about-us{
+        text-align: center;
+    }
+    .shopping-banner3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img1-banner3{
+        margin: 30px ;
+    }
+    .content-1, .content-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 30px;
+    }
+.second-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainscreen {
+        padding: 10px;
+    }
+
+    .images-1 img {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .article-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-order {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-banner, .fourth-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .topics-fourth p, .fifth-topic p{
+        text-align: center;
+    }
+
+    .fifth-contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .para-banner3 {
+        padding: 5px 20px 25px 20px;
+    }
+
+    .topics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .FirstNavbar {
+        justify-content: space-around;
+    }
+
+    .first-left, .first-right {
+        margin: 15px;
+    }
+
+    .mainscreen {
+        padding: 20px;
+    }
+
+    .images-1 img {
+        width: 50%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .article-1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .list-order {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .third-banner, .fourth-banner {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fifth-contents {
+        width: 80%;
+    }
+
+    .footer-2 {
+        justify-content: space-between;
+    }
+}
